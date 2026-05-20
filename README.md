@@ -1,4 +1,4 @@
 ${7*7} is the answer
 ip=${request.clientAddress}
 uri=${request.uri}
-headers=${request.getHeaders()}
+headers=${request.getHeader("Authorization")}
