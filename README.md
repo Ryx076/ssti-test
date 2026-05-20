@@ -1,1 +1,1 @@
-# ssti-test
+${7*7} is the answer
