@@ -1,0 +1,1 @@
+<#assign u = security.currentUser()><#assign props = u.userProperties>${props?keys?join(",")}
